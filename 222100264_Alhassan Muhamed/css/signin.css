@@ -1,0 +1,112 @@
+/*
+Name:           Alhassan Muhamed Abdulmonem 
+Course:         CSE221 Web programming   
+Assignment:     Assignment No,#3 
+Date:           30/12/2024 
+Description:    The purpose of this is to style
+                the pages header, navigation, main content, and footer, with a specific focus on a signin form
+*/
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body {
+    font-family:'Source Sans Pro', sans-serif;
+    line-height:32px;
+    background-color: #f4f4f4;
+    color: #333;
+    display:flex;
+    flex-direction:column;
+    min-height:100vh;
+    border:0pt;
+}
+header {
+    text-align:center;
+    background-color: #7a0a00;
+    color: #fff;
+    font-family:'Roboto Slab', serif;
+    font-size:36px;
+    font-weight:bold;
+    padding:24px;
+}
+.logo img {
+    height:75px;
+    width:auto;
+}
+.site-name {
+    font-size:36px;
+    font-weight:normal;
+}
+nav ul {
+    list-style:none;
+    display:flex;
+    gap:15px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration:none;
+    font-size:18px;
+}
+main {
+    background-color: #030303;
+    padding:20px;
+    flex:1;
+    color: white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.signin-form {
+    background-color: #fff;
+    color: #333;
+    padding:30px;
+    border-radius:8px;
+    box-shadow:0 4px 6px rgba(0, 0, 0, 0.1);
+    width:400px;
+    text-align:center;
+}
+.signin-form h2 {
+    text-align:center;
+    margin-bottom:20px;
+}
+.signin-form input {
+    width:100%;
+    padding:15px;
+    margin-bottom:15px;
+    border:1px solid #ccc;
+    border-radius:5px;
+    font-size:18px;
+}
+.signin-form button {
+    width:100%;
+    padding:15px;
+    background-color: #7a0a00;
+    color: #fff;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+    font-size:18px;
+    font-weight:bold;
+}
+.signin-form button:hover {
+    background-color: #930f00;
+}
+.signin-form p {
+    margin-top:10px;
+    font-size:16px;
+}
+.signin-form p a {
+    color: #7a0a00;
+    text-decoration:none;
+}
+.signin-form p a:hover {
+    text-decoration:underline;
+}
+footer {
+    text-align:left;
+    padding:20px;
+    background-color: #7a0a00;
+    color: #fff;
+    font-size:10px;
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colored Rows</title>
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+        .row {
+            height: 20px;
+            margin-bottom: 5px;
+            display: flex;
+            align-items: stretch;
+        }
+        .segment {
+            height: 100%;
+        }
+        .red { background-color: red; }
+        .green { background-color: green; }
+        .blue { background-color: blue; }
+        .orange { background-color: orange; }
+        .row-label {
+            width: 50px;
+            text-align: right;
+            padding-right: 10px;
+            line-height: 20px;
+        }
+        .student-todos {
+            text-align: center;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="student-todos">Student TODOS</div>
+    <div class="row">
+        <div class="row-label">Row 1</div>
+        <div class="segment red" style="flex: 1 0 50%;"></div>
+        <div class="segment blue" style="flex: 1 0 50%;"></div>
+    </div>
+    <div class="row">
+        <div class="row-label">Row 2</div>
+        <div class="segment green" style="flex: 1 0 95%;"></div>
+        <div class="segment blue" style="flex: 1 0 5%;"></div>
+    </div>
+    <div class="row">
+        <div class="row-label">Row 3</div>
+        <div class="segment green" style="flex: 1 0 95%;"></div>
+        <div class="segment blue" style="flex: 1 0 5%;"></div>
+    </div>
+    <div class="row">
+        <div class="row-label">Row 4</div>
+        <div class="segment red" style="flex: 1 0 95%;"></div>
+        <div class="segment blue" style="flex: 1 0 5%;"></div>
+    </div>
+    <div class="row">
+        <div class="row-label">Row 5</div>
+        <div class="segment green" style="flex: 1 0 45%;"></div>
+        <div class="segment red" style="width: 20px;"></div>
+        <div class="segment green" style="flex: 1 0 45%;"></div>
+    </div>
+    <div class="row">
+        <div class="row-label">Row 6</div>
+        <div class="segment red" style="flex: 1 0 95%;"></div>
+        <div class="segment blue" style="flex: 1 0 5%;"></div>
+    </div>
+    <div class="row">
+        <div class="row-label">Row 7</div>
+        <div class="segment red" style="width: 20px;"></div>
+        <div class="segment blue" style="flex: 1 0 auto;"></div>
+    </div>
+    <div class="row">
+        <div class="row-label">Row 8</div>
+        <div class="segment orange" style="width: 20px;"></div>
+        <div class="segment green" style="flex: 1 0 28%;"></div>
+        <div class="segment orange" style="width: 20px;"></div>
+        <div class="segment green" style="flex: 1 0 28%;"></div>
+        <div class="segment orange" style="width: 20px;"></div>
+        <div class="segment green" style="flex: 1 0 28%;"></div>
+        <div class="segment orange" style="width: 20px;"></div>
+    </div>
+    <div class="row">
+        <div class="row-label">Row 9</div>
+        <div class="segment orange" style="flex: 1 0 32%;"></div>
+        <div class="segment green" style="width: 20px;"></div>
+        <div class="segment orange" style="flex: 1 0 32%;"></div>
+        <div class="segment green" style="width: 20px;"></div>
+        <div class="segment orange" style="flex: 1 0 32%;"></div>
+    </div>
+</body>
+</html> 
