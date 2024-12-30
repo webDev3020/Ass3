@@ -1,0 +1,86 @@
+/*
+Name:           Alhassan Muhamed Abdulmonem 
+Course:         CSE221 Web programming   
+Assignment:     Assignment No,#3 
+Date:           30/12/2024 
+Description:    The purpose of this is to style
+                the pages header, navigation, main content, and footer + creating a structured webpage
+*/
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body {
+    font-family:'Source Sans Pro', sans-serif;
+    line-height:32px;
+    background-color:#f4f4f4;
+    color:#333;
+    display:flex;
+    flex-direction:column;
+    min-height:100vh;
+    border:0pt;
+}
+header {
+    text-align: center;
+    background-color: #7a0a00;
+    color: #fff;
+    font-family:'Roboto Slab', serif;
+    font-size:36px;
+    font-weight:bold;
+    padding:24px;
+}
+.logo img {
+    height:75px;
+    width:auto;
+}
+.site-name {
+    font-size:36px;
+    font-weight:normal;
+}
+nav ul {
+    list-style:none;
+    display:flex;
+    gap:15px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration:none;
+    font-size:18px;
+}
+main {
+    background-color: #030303;   
+    padding:20px;
+    flex:1; 
+}
+.content-grid {
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+}
+article {
+    background: #fff;
+    border:1px solid #ccc;
+    border-radius:8px;
+    overflow:hidden;
+    text-align:center;
+    box-shadow:0 4px 6px rgba(0, 0, 0, 0.1);
+}
+article img {
+    width:100%;
+    height:auto;
+    border-bottom:1px solid #ccc;
+}
+article h3 {
+    padding:10px;
+    font-size:16px;
+    color: #333;
+}
+footer {
+    text-align:left;
+    padding: 20px;
+    background-color: #7a0a00;
+    color: #fff;
+    font-size:10px;
+    margin-top:auto;
+}
